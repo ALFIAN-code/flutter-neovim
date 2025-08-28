@@ -1,0 +1,15 @@
+return {
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = function()
+        -- pakai theme default dulu
+        vim.cmd.colorscheme("tokyonight")
+        -- bikin transparan
+        vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+        vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+      end,
+    },
+  },
+}
+
