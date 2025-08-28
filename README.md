@@ -154,6 +154,3 @@ Untuk mengubah konfigurasi:
 1. Edit file di `lua/config/` untuk konfigurasi umum
 2. Edit file di `lua/plugins/` untuk konfigurasi plugin
 3. Jalankan `:Lazy reload` setelah perubahan
-
-## Lisensi
-Konfigurasi ini menggunakan lisensi yang sama dengan LazyVim.
